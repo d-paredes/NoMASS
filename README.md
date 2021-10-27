@@ -1,4 +1,2 @@
 # NoMASS
-# NoMASS
-## NoMASS-GUI
 ..
