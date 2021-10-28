@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NoMASS_CB_U14" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/fmuNoMASS" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Release" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-fPIC" />
+					<Add directory="../Source" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="cp ./bin/Release/libfmuNoMASS.so ./../../fmuNoMASS/binaries/linux64/fmuNoMASS.so" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../Source/Agents/Agent.cpp" />
+		<Unit filename="../Source/Agents/Agent.hpp" />
+		<Unit filename="../Source/Appliances/Appliance.cpp" />
+		<Unit filename="../Source/Appliances/Appliance.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Battery.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_Battery.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Battery_GridCost_Reward.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_Battery_GridCost_Reward.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_FMI.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_FMI.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Generic_CSV.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_Generic_CSV.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Group.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Group_Battery.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Large.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_Large.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Large_CSV.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_Large_CSV.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Large_Learning.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_Large_Learning.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Large_Learning_CSV.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_Large_Learning_CSV.hpp" />
+		<Unit filename="../Source/Appliances/Appliance_Small.cpp" />
+		<Unit filename="../Source/Appliances/Appliance_Small.hpp" />
+		<Unit filename="../Source/Building/Building.cpp" />
+		<Unit filename="../Source/Building/Building.hpp" />
+		<Unit filename="../Source/Building/Building_Appliances.cpp" />
+		<Unit filename="../Source/Building/Building_Appliances.hpp" />
+		<Unit filename="../Source/Building/Building_Zone.cpp" />
+		<Unit filename="../Source/Building/Building_Zone.hpp" />
+		<Unit filename="../Source/Configuration/Configuration.cpp" />
+		<Unit filename="../Source/Configuration/Configuration.hpp" />
+		<Unit filename="../Source/Contract/Contract.hpp" />
+		<Unit filename="../Source/Contract/Contract_Negotiation.cpp" />
+		<Unit filename="../Source/Contract/Contract_Negotiation.hpp" />
+		<Unit filename="../Source/Contract/Contract_Node_Priority.cpp" />
+		<Unit filename="../Source/Contract/Contract_Node_Priority.hpp" />
+		<Unit filename="../Source/Contract/Contract_Node_Supply.cpp" />
+		<Unit filename="../Source/Contract/Contract_Node_Supply.hpp" />
+		<Unit filename="../Source/Contract/Contract_Node_Tree.hpp" />
+		<Unit filename="../Source/DataStore/DataStore.cpp" />
+		<Unit filename="../Source/DataStore/DataStore.hpp" />
+		<Unit filename="../Source/Environment/Environment.cpp" />
+		<Unit filename="../Source/Environment/Environment.hpp" />
+		<Unit filename="../Source/LVN/LVN.cpp" />
+		<Unit filename="../Source/LVN/LVN.hpp" />
+		<Unit filename="../Source/LVN/LVN_Node.cpp" />
+		<Unit filename="../Source/LVN/LVN_Node.hpp" />
+		<Unit filename="../Source/Log/Log.cpp" />
+		<Unit filename="../Source/Log/Log.hpp" />
+		<Unit filename="../Source/Models/Model_Activity.cpp" />
+		<Unit filename="../Source/Models/Model_Activity.hpp" />
+		<Unit filename="../Source/Models/Model_Activity_Survival.cpp" />
+		<Unit filename="../Source/Models/Model_Activity_Survival.hpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Large_Usage.cpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Large_Usage.hpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Large_Usage_Survival.cpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Large_Usage_Survival.hpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Ownership.cpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Ownership.hpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Power_CSV.cpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Power_CSV.hpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Small_Usage.cpp" />
+		<Unit filename="../Source/Models/Model_Appliance_Small_Usage.hpp" />
+		<Unit filename="../Source/Models/Model_ExternalShading.cpp" />
+		<Unit filename="../Source/Models/Model_ExternalShading.hpp" />
+		<Unit filename="../Source/Models/Model_HeatGains.cpp" />
+		<Unit filename="../Source/Models/Model_HeatGains.hpp" />
+		<Unit filename="../Source/Models/Model_Lights.cpp" />
+		<Unit filename="../Source/Models/Model_Lights.hpp" />
+		<Unit filename="../Source/Models/Model_Presence.cpp" />
+		<Unit filename="../Source/Models/Model_Presence.hpp" />
+		<Unit filename="../Source/Models/Model_RandomWeibull.cpp" />
+		<Unit filename="../Source/Models/Model_RandomWeibull.hpp" />
+		<Unit filename="../Source/Models/Model_Windows.cpp" />
+		<Unit filename="../Source/Models/Model_Windows.hpp" />
+		<Unit filename="../Source/Occupants/Occupant.cpp" />
+		<Unit filename="../Source/Occupants/Occupant.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Appliance.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Appliance.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Appliance_BDI.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Appliance_BDI.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Heat_Gains.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Heat_Gains.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_HeatingSetPoints_Learning.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_HeatingSetPoints_Learning.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Lights.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Lights.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Lights_BDI.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Lights_BDI.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Shades.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Shades.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Shades_BDI.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Shades_BDI.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Window.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Window.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Window_Learning.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Window_Learning.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Window_Stochastic.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Window_Stochastic.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Window_Stochastic_BDI.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Action_Window_Stochastic_BDI.hpp" />
+		<Unit filename="../Source/Occupants/Occupant_Zone.cpp" />
+		<Unit filename="../Source/Occupants/Occupant_Zone.hpp" />
+		<Unit filename="../Source/QLearning/QLearning.cpp" />
+		<Unit filename="../Source/QLearning/QLearning.hpp" />
+		<Unit filename="../Source/RapidXML/rapidxml.hpp" />
+		<Unit filename="../Source/RapidXML/rapidxml_utils.hpp" />
+		<Unit filename="../Source/Simulation/Simulation.cpp" />
+		<Unit filename="../Source/Simulation/Simulation.hpp" />
+		<Unit filename="../Source/Simulation/SimulationTime.cpp" />
+		<Unit filename="../Source/Simulation/SimulationTime.hpp" />
+		<Unit filename="../Source/Simulation/State.cpp" />
+		<Unit filename="../Source/Simulation/State.hpp" />
+		<Unit filename="../Source/Simulation/StateMachine.cpp" />
+		<Unit filename="../Source/Simulation/StateMachine.hpp" />
+		<Unit filename="../Source/Utility/Utility.cpp" />
+		<Unit filename="../Source/Utility/Utility.hpp" />
+		<Unit filename="../Source/Version/Version.hpp" />
+		<Unit filename="../Source/fmi/fmiFunctions.cpp" />
+		<Unit filename="../Source/fmi/fmiFunctions.hpp" />
+		<Unit filename="../Source/fmi/fmiPlatformTypes.hpp" />
+		<Unit filename="../Source/fmi/fmuTemplate.cpp" />
+		<Unit filename="../Source/fmi/fmuTemplate.hpp" />
+		<Unit filename="../Source/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

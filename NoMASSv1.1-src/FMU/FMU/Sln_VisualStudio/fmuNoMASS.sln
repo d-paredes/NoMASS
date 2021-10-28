@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{8EC75B1B-5F2B-3ED4-96AC-BD86B619A165}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7A23E18-4EBB-3076-A320-52DC568DE3AD} = {F7A23E18-4EBB-3076-A320-52DC568DE3AD}
+		{C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B} = {C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B}
+		{E6D2C742-DE35-371A-B878-448852BA43A4} = {E6D2C742-DE35-371A-B878-448852BA43A4}
+		{FC6ABEAF-9E94-3EDD-8AAB-D74C17468DC7} = {FC6ABEAF-9E94-3EDD-8AAB-D74C17468DC7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoMASS", "NoMASS.vcxproj", "{F7A23E18-4EBB-3076-A320-52DC568DE3AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B} = {C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B}
+		{E6D2C742-DE35-371A-B878-448852BA43A4} = {E6D2C742-DE35-371A-B878-448852BA43A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoMASSstatic", "NoMASSstatic.vcxproj", "{C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6D2C742-DE35-371A-B878-448852BA43A4} = {E6D2C742-DE35-371A-B878-448852BA43A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{E6D2C742-DE35-371A-B878-448852BA43A4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fmuNoMASS", "fmuNoMASS.vcxproj", "{FC6ABEAF-9E94-3EDD-8AAB-D74C17468DC7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B} = {C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B}
+		{E6D2C742-DE35-371A-B878-448852BA43A4} = {E6D2C742-DE35-371A-B878-448852BA43A4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EC75B1B-5F2B-3ED4-96AC-BD86B619A165}.Release|x64.ActiveCfg = Release|x64
+		{F7A23E18-4EBB-3076-A320-52DC568DE3AD}.Release|x64.ActiveCfg = Release|x64
+		{F7A23E18-4EBB-3076-A320-52DC568DE3AD}.Release|x64.Build.0 = Release|x64
+		{C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B}.Release|x64.ActiveCfg = Release|x64
+		{C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B}.Release|x64.Build.0 = Release|x64
+		{E6D2C742-DE35-371A-B878-448852BA43A4}.Release|x64.ActiveCfg = Release|x64
+		{E6D2C742-DE35-371A-B878-448852BA43A4}.Release|x64.Build.0 = Release|x64
+		{FC6ABEAF-9E94-3EDD-8AAB-D74C17468DC7}.Release|x64.ActiveCfg = Release|x64
+		{FC6ABEAF-9E94-3EDD-8AAB-D74C17468DC7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

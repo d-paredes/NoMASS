@@ -1,0 +1,41 @@
+   **   ~~~   ** fmiInstantiateSlave.instanceName=[fmu_NoMASS_All]
+   **   ~~~   ** fmiInstantiateSlave.GUID=[{fd719ef5-c46e-48c7-ae95-96089a69ee64}]
+   **   ~~~   ** fmiInstantiateSlave.Configuration::RunLocation=[tmp-fmus/fmu_NoMASS.fmu_FMI]
+   **   ~~~   **   No-MASS:: instantiating Model
+   **   ~~~   **   No-MASS:: CurrentStepCount()[-1]
+   **   ~~~   **  Loading XML file: -tmp-fmus/fmu_NoMASS.fmu_FMI/modelDescription.xml-
+   **   ~~~   **  Loaded XML file: -tmp-fmus/fmu_NoMASS.fmu_FMI/modelDescription.xml-
+   **   ~~~   ** DataStore::print()
+   **   ~~~   ** fmiInstantiateSlave.instanceName=[fmu_NoMASS_All]
+   **   ~~~   ** fmiInstantiateSlave.GUID=[{fd719ef5-c46e-48c7-ae95-96089a69ee64}]
+   **   ~~~   ** fmiInstantiateSlave.Configuration::RunLocation=[tmp-fmus/fmu_NoMASS.fmu_FMI]
+   **   ~~~   **   No-MASS:: instantiating Model
+   **   ~~~   **   No-MASS:: CurrentStepCount()[-1]
+   **   ~~~   ** DataStore::print()
+   **   ~~~   ** fmiInstantiateSlave.instanceName=[fmu_NoMASS_All]
+   **   ~~~   ** fmiInstantiateSlave.GUID=[{fd719ef5-c46e-48c7-ae95-96089a69ee64}]
+   **   ~~~   ** fmiInstantiateSlave.Configuration::RunLocation=[tmp-fmus/fmu_NoMASS.fmu_FMI]
+   **   ~~~   **   No-MASS:: instantiating Model
+   **   ~~~   **   No-MASS:: CurrentStepCount()[-1]
+   **   ~~~   ** DataStore::print()
+   **   ~~~   ** fmiInstantiateSlave.instanceName=[fmu_NoMASS_All]
+   **   ~~~   ** fmiInstantiateSlave.GUID=[{fd719ef5-c46e-48c7-ae95-96089a69ee64}]
+   **   ~~~   ** fmiInstantiateSlave.Configuration::RunLocation=[tmp-fmus/fmu_NoMASS.fmu_FMI]
+   **   ~~~   **   No-MASS:: instantiating Model
+   **   ~~~   **   No-MASS:: CurrentStepCount()[-1]
+   **   ~~~   ** DataStore::print()
+   **   ~~~   ** fmiInstantiateSlave.instanceName=[fmu_NoMASS_All]
+   **   ~~~   ** fmiInstantiateSlave.GUID=[{fd719ef5-c46e-48c7-ae95-96089a69ee64}]
+   **   ~~~   ** fmiInstantiateSlave.Configuration::RunLocation=[tmp-fmus/fmu_NoMASS.fmu_FMI]
+   **   ~~~   **   No-MASS:: instantiating Model
+   **   ~~~   **   No-MASS:: CurrentStepCount()[-1]
+   **   ~~~   ** DataStore::print()
+   **   ~~~   ** fmiInstantiateSlave.instanceName=[fmu_NoMASS_All]
+   **   ~~~   ** fmiInstantiateSlave.GUID=[{fd719ef5-c46e-48c7-ae95-96089a69ee64}]
+   **   ~~~   ** fmiInstantiateSlave.Configuration::RunLocation=[tmp-fmus/fmu_NoMASS.fmu_FMI]
+   **   ~~~   **   No-MASS:: instantiating Model
+   **   ~~~   **   No-MASS:: CurrentStepCount()[-1]
+   **   ~~~   ** DataStore::print()
+   **   ~~~   ** fmiInstantiateSlave.instanceName=[fmu_NoMASS_All]
+   **   ~~~   ** fmiInstantiateSlave.GUID=[{fd719ef5-c46e-48c7-ae95-96089a69ee64}]
+   **   ~~~   ** fmiInstantiateSlave.Configuration::RunLocation=[tmp-fmus/fmu_NoMASS.fmu_FMI]

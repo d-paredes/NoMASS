@@ -1,0 +1,25 @@
+Program Version,EnergyPlus, Version 8.6.0-06ffdb59f4, YMD=2018.01.19 10:44,IDD_Version 8.6.0
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=SIMPLE-OFFICE
+   **   ~~~   ** ..Weather File Location=LONDON/GATWICK - GBR IWEC Data WMO#=037760
+   **   ~~~   ** ..due to location differences, Latitude difference=[3.81] degrees, Longitude difference=[7.54] degrees.
+   **   ~~~   ** ..Time Zone difference=[1.0] hour(s), Elevation difference=[76.15] percent, [198.00] meters.
+   ** Warning ** GetSurfaceData: Entered Zone Floor Areas differ from calculated Zone Floor Area(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ************* Note that the following warning(s) may/will occur if you have not enclosed your zone completely.
+   ** Warning ** Entered Zone Volumes differ from calculated zone volume(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** CheckUsedConstructions: There are 5 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetInternalHeatGains: People="PEOPLE BLOCK1:ZONE1", Activity Level Schedule Name values
+   **   ~~~   ** fall outside typical range [70,1000] W/person for Thermal Comfort Reporting.
+   **   ~~~   ** Odd comfort values may result; Schedule="BLOCK1:ZONE1AVERAGEGAINS".
+   **   ~~~   ** Entered min/max range=[0.0,0.0] W/person.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation

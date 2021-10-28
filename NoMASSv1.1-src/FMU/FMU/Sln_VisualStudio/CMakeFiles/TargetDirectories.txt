@@ -1,0 +1,5 @@
+C:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/Sln_VisualStudio/CMakeFiles/NoMASSstatic.dir
+C:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/Sln_VisualStudio/CMakeFiles/fmuNoMASS.dir
+C:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/Sln_VisualStudio/CMakeFiles/NoMASS.dir
+C:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/Sln_VisualStudio/CMakeFiles/ALL_BUILD.dir
+C:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/Sln_VisualStudio/CMakeFiles/ZERO_CHECK.dir

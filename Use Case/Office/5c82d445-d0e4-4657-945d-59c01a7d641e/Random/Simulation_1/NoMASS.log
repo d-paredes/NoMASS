@@ -1,0 +1,54 @@
+   **   ~~~   ** Created by tuos on Fri Oct 22 11:05:21 2021
+   **   ~~~   ** 
+   **   ~~~   ** GUID: {fd719ef5-c46e-48c7-ae95-96089a69ee64}
+   **   ~~~   ** Instantiating Model: FMI [Fri Oct 22 11:05:21 2021]
+   **   ~~~   **  Loading XML file: -tmp-fmus\fmuNoMASS.fmu_FMI/modelDescription.xml-
+   **   ~~~   **  Loaded XML file: -tmp-fmus\fmuNoMASS.fmu_FMI/modelDescription.xml-
+   **   ~~~   ** Parsing configuration file...
+   **   ~~~   ** +--------------------------------------------------
+   **   ~~~   ** 
+   **   ~~~   ** fmuNoMASS: 1.6.1000.9999 [2019.07.15]
+   **   ~~~   ** 
+   **   ~~~   ** eplusVersion: 8.6
+   **   ~~~   ** TimeStepsPerHour: 12
+   **   ~~~   ** 
+   **   ~~~   ** Number of zones (Buildings[0]): [2]
+   **   ~~~   **    Block1:Zone1
+   **   ~~~   **    out
+   **   ~~~   ** 
+   **   ~~~   ** NoMASS models: 
+   **   ~~~   **  - Presence: True
+   **   ~~~   **  - Windows: True
+   **   ~~~   **  - Shading: True
+   **   ~~~   **  - Lights: True
+   **   ~~~   **  - Heating: True
+   **   ~~~   **  - Agent Heat Gains: True
+   **   ~~~   ** 
+   **   ~~~   **  * Windows: 28
+   **   ~~~   **  * Shading: 23
+   **   ~~~   ** +--------------------------------------------------
+   **   ~~~   ** 
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]
+   **   ~~~   ** ...SavingDataFri Oct 22 11:05:21 2021
+   **   ~~~   ** Instantiating Slave [Fri Oct 22 11:05:21 2021]

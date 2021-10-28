@@ -1,0 +1,83 @@
+Code Layout
+
+1. Header file layout
+
+1. Library header files
+2. Code base header files
+3. Local header files
+
+* Add a blank line between group of files
+
+
+2. Comments
+
+// C++ style
+
+3. Header file layout
+
+// Code to do something -- pir -- 7.3.2011
+
+// REVISION HISTORY:
+. . . Revision comments
+
+//************************...**** (length=80)
+
+#ifndef GUARD
+# define GUARD
+
+#include <iostream>
+. . . other library headers
+
+#include <CByteImage.h>
+. . . other code base headers
+
+#include "user-defined-header1.h"
+
+//************************...****
+
+(Optional) global declarations
+
+//************************...****
+
+Single class definition
+(Optional) templated member function definitions
+OR
+Function declarations
+
+//************************...****
+
+#endif
+
+4. Implementation file layout
+
+// Code to do something --pir --7.3.2011
+
+// REVISION HISTORY:
+. . . Revision comments
+
+//************************...****
+
+#include <iostream>
+. . . other library headers
+
+#include <CByteImage.h>
+. . . other code base headers
+
+#include "user-defined-header1.h"
+
+//************************...****
+
+Global declarations
+
+//************************...****
+
+File-global declarations, qualified as static
+//************************...****
+
+Member function definitions
+OR
+(Optional) file local functions, qualified as static
+
+Exported function declarations
+
+//************************...****
