@@ -1,3 +1,0 @@
-/home/user/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/build/CMakeFiles/NoMASS.dir
-/home/user/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/build/CMakeFiles/NoMASSstatic.dir
-/home/user/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/build/CMakeFiles/fmuNoMASS.dir
