@@ -1,0 +1,4 @@
+NoMASS-GUI/EnergyPlus-8.6.0/*.zip filter=lfs diff=lfs merge=lfs -text
+EnergyPlus-8.6.0/Source/*.zip filter=lfs diff=lfs merge=lfs -text
+EnergyPlus-8.6.0/Source-Linux/*.zip filter=lfs diff=lfs merge=lfs -text
+EnergyPlus-8.6.0/Source-Windows/*.zip filter=lfs diff=lfs merge=lfs -text
