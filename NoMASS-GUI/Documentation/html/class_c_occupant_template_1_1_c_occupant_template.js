@@ -1,0 +1,28 @@
+var class_c_occupant_template_1_1_c_occupant_template =
+[
+    [ "__init__", "class_c_occupant_template_1_1_c_occupant_template.html#a0b6512b01e0b9f391bd9fdb046f3df0a", null ],
+    [ "category", "class_c_occupant_template_1_1_c_occupant_template.html#a139e7e3973be16fd3cca7a132e7b4622", null ],
+    [ "category", "class_c_occupant_template_1_1_c_occupant_template.html#ac685b03b444e0dd2089bb2d6da828b6d", null ],
+    [ "categoryID", "class_c_occupant_template_1_1_c_occupant_template.html#af558b9f11e20d56424108300e3bafef5", null ],
+    [ "categoryID", "class_c_occupant_template_1_1_c_occupant_template.html#adfa0996f4864e3307efcfa643cb7519c", null ],
+    [ "description", "class_c_occupant_template_1_1_c_occupant_template.html#a3690e5c2a8828abbe9153aeed1f5fecc", null ],
+    [ "description", "class_c_occupant_template_1_1_c_occupant_template.html#a7653d8598140cb0974391375b6e0bf2d", null ],
+    [ "ID", "class_c_occupant_template_1_1_c_occupant_template.html#adb8818239148d2e5c5833a2b062ee9ad", null ],
+    [ "ID", "class_c_occupant_template_1_1_c_occupant_template.html#a0a178fbcae3f6431733dd63ee37ac7bb", null ],
+    [ "name", "class_c_occupant_template_1_1_c_occupant_template.html#a5907ca3bbf8e7cd8f40c3007338f6d02", null ],
+    [ "name", "class_c_occupant_template_1_1_c_occupant_template.html#a62d212fdcbbcee30e90a64ce349d32f8", null ],
+    [ "occupants", "class_c_occupant_template_1_1_c_occupant_template.html#acc81b7a03d171885bcca403afe3e4bae", null ],
+    [ "occupants", "class_c_occupant_template_1_1_c_occupant_template.html#a401fc8bbb2852e9f2bfadad6c6b81a92", null ],
+    [ "region", "class_c_occupant_template_1_1_c_occupant_template.html#ad1d284419b8527b6cdcdb0d544f12b7a", null ],
+    [ "region", "class_c_occupant_template_1_1_c_occupant_template.html#a6bcc3de12f8bed0075e8e9fc8ee449bf", null ],
+    [ "regionID", "class_c_occupant_template_1_1_c_occupant_template.html#a2d64382fb14878ff68fb76d8b5ac4d6b", null ],
+    [ "regionID", "class_c_occupant_template_1_1_c_occupant_template.html#a80ddda2986b04b9c6ad6581a70cb2d2c", null ],
+    [ "sector", "class_c_occupant_template_1_1_c_occupant_template.html#ad87f4eda7b65f91e62a4fcaf83dd2a66", null ],
+    [ "sector", "class_c_occupant_template_1_1_c_occupant_template.html#a10757cf61e95d007399167376cc5c46d", null ],
+    [ "sectorID", "class_c_occupant_template_1_1_c_occupant_template.html#a845d68804272d678014ec19ae4ec2bd4", null ],
+    [ "sectorID", "class_c_occupant_template_1_1_c_occupant_template.html#a39c05e74743100180589496adc2bc7f4", null ],
+    [ "type", "class_c_occupant_template_1_1_c_occupant_template.html#aff464267544e4efc9b770c8320c8f199", null ],
+    [ "type", "class_c_occupant_template_1_1_c_occupant_template.html#aca033702f187894894d3102de41d6b99", null ],
+    [ "UUID", "class_c_occupant_template_1_1_c_occupant_template.html#abbcfc1a774079da020e49c42cbadb693", null ],
+    [ "UUID", "class_c_occupant_template_1_1_c_occupant_template.html#a17c9ca40c3df55189d0997a1662757cf", null ]
+];
