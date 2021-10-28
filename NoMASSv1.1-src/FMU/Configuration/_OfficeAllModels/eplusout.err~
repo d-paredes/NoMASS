@@ -1,0 +1,45 @@
+Program Version,EnergyPlus, Version 8.4.0-Unknown, YMD=2018.01.09 11:43,IDD_Version 8.4.0
+   ** Warning ** Version: in IDF="8.2.0.001" not the same as expected="8.4"
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=SIMPLE-OFFICE
+   **   ~~~   ** ..Weather File Location=LONDON/GATWICK - GBR IWEC Data WMO#=037760
+   **   ~~~   ** ..due to location differences, Latitude difference=[3.81] degrees, Longitude difference=[7.54] degrees.
+   **   ~~~   ** ..Time Zone difference=[1.0] hour(s), Elevation difference=[76.15] percent, [198.00] meters.
+   ** Warning ** GetSurfaceData: Entered Zone Floor Areas differ from calculated Zone Floor Area(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ************* Note that the following warning(s) may/will occur if you have not enclosed your zone completely.
+   ** Warning ** Entered Zone Volumes differ from calculated zone volume(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** CheckUsedConstructions: There are 5 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetInternalHeatGains: People="PEOPLE BLOCK1:ZONE1", Activity Level Schedule Name values
+   **   ~~~   ** fall outside typical range [70,1000] W/person for Thermal Comfort Reporting.
+   **   ~~~   ** Odd comfort values may result; Schedule="BLOCK1:ZONE1AVERAGEGAINS".
+   **   ~~~   ** Entered min/max range=[0.0,0.0] W/person.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Severe  ** ExternalInterface/InitExternalInterfaceFMUImport: Error when trying to
+   **   ~~~   ** get the path to the binaries of instance
+   **   ~~~   ** "FMI" of FMU "fmuNoMASS.fmu".
+   **   ~~~   ** Check if binaries folder exists where the FMU has been unpacked.
+   **  Fatal  ** ExternalInterface/StopExternalInterfaceIfError: Error in ExternalInterface: Check EnergyPlus *.err file.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=1
+   ..... Last severe error=ExternalInterface/InitExternalInterfaceFMUImport: Error when trying to
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 1 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 6 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.24sec

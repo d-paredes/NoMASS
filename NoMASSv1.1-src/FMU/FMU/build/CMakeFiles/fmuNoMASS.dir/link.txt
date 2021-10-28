@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -fPIC -std=c++11 -O3 -DNDEBUG   -shared -Wl,-soname,libfmuNoMASS.so -o libfmuNoMASS.so CMakeFiles/fmuNoMASS.dir/Source/fmi/fmuTemplate.cpp.o libNoMASSstatic.a 

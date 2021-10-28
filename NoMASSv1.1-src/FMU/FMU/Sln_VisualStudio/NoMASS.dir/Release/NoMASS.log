@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Log/Log.hpp(28): warning C4117: macro name '__FUNCTION__' is reserved, '#define' ignored
+C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\main.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  NoMASS.vcxproj -> C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio\Release\NoMASS.exe

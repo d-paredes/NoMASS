@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C54124CE-6E08-3F9E-A4B3-2E9B291B3B1B}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>NoMASSstatic</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NoMASSstatic.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NoMASSstatic</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU -BC:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/Sln_VisualStudio --check-stamp-file C:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/Sln_VisualStudio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/dell/Documents/NoMASS-Release-72019/NoMASSv1.1-src/FMU/FMU/CMakeLists.txt;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\CMakeLists.txt;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio\CMakeFiles\3.8.2\CMakeCCompiler.cmake;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Version\Version.hpp" />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Agents\Agent.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Heat_Gains.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Lights.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Lights_BDI.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Shades.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Shades_BDI.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Window.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Window_Stochastic.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Window_Stochastic_BDI.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Window_Learning.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Appliance.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_Appliance_BDI.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Action_HeatingSetPoints_Learning.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Occupants\Occupant_Zone.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\DataStore\DataStore.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Log\Log.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Activity.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Activity_Survival.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_ExternalShading.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_HeatGains.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Lights.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Presence.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_RandomWeibull.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Windows.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Appliance_Ownership.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Appliance_Large_Usage.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Appliance_Large_Usage_Survival.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Appliance_Small_Usage.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Models\Model_Appliance_Power_CSV.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Simulation\Simulation.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Configuration\Configuration.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Simulation\SimulationTime.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Simulation\State.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Simulation\StateMachine.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Utility\Utility.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Environment\Environment.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Building\Building.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Building\Building_Zone.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Building\Building_Appliances.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\fmi\fmiFunctions.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\QLearning\QLearning.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_Large.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_Large_CSV.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_Small.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_Generic_CSV.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_FMI.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_Large_Learning.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_Large_Learning_CSV.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_Battery.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Appliances\Appliance_Battery_GridCost_Reward.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\LVN\LVN.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\LVN\LVN_Node.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Contract\Contract_Node_Priority.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Contract\Contract_Node_Supply.cpp"  />
+    <ClCompile Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Source\Contract\Contract_Negotiation.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\dell\Documents\NoMASS-Release-72019\NoMASSv1.1-src\FMU\FMU\Sln_VisualStudio\ZERO_CHECK.vcxproj">
+      <Project>{E6D2C742-DE35-371A-B878-448852BA43A4}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

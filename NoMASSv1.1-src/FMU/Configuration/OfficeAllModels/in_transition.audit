@@ -1,0 +1,28 @@
+
+Conversion 8.2 => 8.3
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\dell\Documents\SharedFolder_Ubuntu14_04_5\daps\Projects\No-MASS\No-MASS-Master\Configuration\OfficeAllModels\in.idf
+
+Conversion 8.3 => 8.4
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\dell\Documents\SharedFolder_Ubuntu14_04_5\daps\Projects\No-MASS\No-MASS-Master\Configuration\OfficeAllModels\in.idf
+
+Conversion 8.4 => 8.5
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\dell\Documents\SharedFolder_Ubuntu14_04_5\daps\Projects\No-MASS\No-MASS-Master\Configuration\OfficeAllModels\in.idf
+
+Conversion 8.5 => 8.6
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\dell\Documents\SharedFolder_Ubuntu14_04_5\daps\Projects\No-MASS\No-MASS-Master\Configuration\OfficeAllModels\in.idf

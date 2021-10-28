@@ -1,0 +1,131 @@
+<data>
+	<categories>
+		<category>
+			<id>0</id>
+			<type>Default</type>
+			<name>Office</name>
+			<description>Office worker</description>
+		</category>
+		<category>
+			<id>1</id>
+			<type>Default</type>
+			<name>Residential</name>
+			<description>Residential occupant</description>
+		</category>
+	</categories>
+	<regions>
+		<region>
+			<id>0</id>
+			<parentID>0</parentID>
+			<type>Default</type>
+			<name>General (office)</name>
+			<description>General (office)</description>
+		</region>
+		<region>
+			<id>1</id>
+			<parentID>1</parentID>
+			<type>Default</type>
+			<name>General (residential)</name>
+			<description>General (residential)</description>
+		</region>
+		<region>
+			<id>2</id>
+			<parentID>1</parentID>
+			<type>Custom</type>
+			<name>Custom (residential)</name>
+			<description>Custom</description>
+		</region>
+	</regions>
+	<sectors>
+		<sector>
+			<id>0</id>
+			<parentID>0</parentID>
+			<type>Default</type>
+			<name>General (office-gral-gral)</name>
+			<description>General (office-gral-gral)</description>
+		</sector>
+		<sector>
+			<id>1</id>
+			<parentID>1</parentID>
+			<type>Default</type>
+			<name>General (res-gral-gral)</name>
+			<description>General (res-gral-gral)</description>
+		</sector>
+		<sector>
+			<id>2</id>
+			<parentID>1</parentID>
+			<type>Default</type>
+			<name>Custom (res-gral-cust)</name>
+			<description>Custom (res-gral-cust)</description>
+		</sector>
+		<sector>
+			<id>3</id>
+			<parentID>2</parentID>
+			<type>Default</type>
+			<name>Custom (res-cust-cust)</name>
+			<description>Custom (res-cust-cust)</description>
+		</sector>
+	</sectors>
+	<templates>
+		<template>
+			<id>0</id>
+			<typeID>0</typeID>
+			<name>Office_Workers</name>
+			<description>An office worker (male)</description>
+			<categoryID>0</categoryID>
+			<regionID>2</regionID>
+			<sectorID>3</sectorID>
+			<numberOfTypes></numberOfTypes>
+			<occupants>
+				<occupant>
+					<id>0</id>
+					<zoneId>Default</zoneId>
+					<power>1</power>
+					<windowId>1</windowId>
+					<window>Win-01</window>
+					<shadeId>1</shadeId>
+					<shade>001-28-x</shade>
+					<activityId>Auto_Generate</activityId>
+					<sex>Male</sex>
+					<familyID>Age 18-39 child</familyID>
+					<educationID>Above Secondary Education</educationID>
+					<ageGroup>Less than 40</ageGroup>
+					<ownComputer>1</ownComputer>
+					<isRetired>0</isRetired>
+					<isMarried>1</isMarried>
+					<isUnEmployed>0</isUnEmployed>
+				</occupant>
+			</occupants>
+		</template>
+		<template>
+			<id>1</id>
+			<typeID>1</typeID>
+			<name>Dwell Occupant</name>
+			<description>Dwell Occupant</description>
+			<categoryID>1</categoryID>
+			<regionID>1</regionID>
+			<sectorID>2</sectorID>
+			<numberOfTypes></numberOfTypes>
+			<occupants>
+				<occupant>
+					<id>0</id>
+					<zoneId>Default</zoneId>
+					<power>1</power>
+					<windowId>1</windowId>
+					<window>Win-01</window>
+					<shadeId>1</shadeId>
+					<shade>001-28-x</shade>
+					<activityId>Auto_Generate</activityId>
+					<sex>Female</sex>
+					<familyID>Age 18-39 no child</familyID>
+					<educationID>Above High Education</educationID>
+					<ageGroup>Less than 40</ageGroup>
+					<ownComputer>1</ownComputer>
+					<isRetired>0</isRetired>
+					<isMarried>0</isMarried>
+					<isUnEmployed>0</isUnEmployed>
+				</occupant>
+			</occupants>
+		</template>
+	</templates>
+</data>
