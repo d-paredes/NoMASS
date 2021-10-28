@@ -15,10 +15,10 @@
   <learn>0</learn>
   <save>1</save>
   <eplusVersion>8.6</eplusVersion>
-  <idfFile>C:/Users/tuos/Documents/shared-folder/NoMASS-Release-72019/Parag_2021/SBG_ithick_wtrans_1_v86.idf</idfFile>
-  <weatherFile>C:/Users/tuos/Documents/shared-folder/NoMASS-Release-72019/NoMASS-GUI/epw_examples/CHE_Geneva.067000_IWEC.epw</weatherFile>
-  <outputDirectory>C:/Users/tuos/Documents/shared-folder/NoMASS-Release-72019v.2021/NoMASS-GUI/Output</outputDirectory>
-  <eplusLocation>C:\Users\tuos\Documents\shared-folder\NoMASS-Release-72019\NoMASS-GUI\Parag\EnergyPlus-8.6.0\build\Products\Release</eplusLocation>
+  <idfFile>SBG_ithick_wtrans_1_v86.idf</idfFile>
+  <weatherFile>CHE_Geneva.067000_IWEC.epw</weatherFile>
+  <outputDirectory>Output</outputDirectory>
+  <eplusLocation>Release</eplusLocation>
   <randomWindow>True</randomWindow>
   <randomShade>True</randomShade>
   <attachDayCtrl>True</attachDayCtrl>

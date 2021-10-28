@@ -15,10 +15,10 @@
   <learn>0</learn>
   <save>1</save>
   <eplusVersion>8.6</eplusVersion>
-  <idfFile>C:/Users/tuos/Documents/shared-folder/NoMASS-Release-72019/NoMASS-GUI/Parag/multizone_house/MFH_physprop_clean.idf</idfFile>
-  <weatherFile>C:/Users/tuos/Documents/shared-folder/NoMASS-Release-72019/NoMASS-GUI/epw_examples/CHE_Geneva.067000_IWEC.epw</weatherFile>
-  <outputDirectory>C:/Users/tuos/Documents/shared-folder/NoMASS-Release-72019/NoMASS-GUI/Output</outputDirectory>
-  <eplusLocation>C:/Users/tuos/Documents/shared-folder/NoMASS-Release-72019/NoMASS-GUI/EnergyPlus-8.6.0/build/Products/Release</eplusLocation>
+  <idfFile>MFH_physprop_clean.idf</idfFile>
+  <weatherFile>CHE_Geneva.067000_IWEC.epw</weatherFile>
+  <outputDirectory>Output</outputDirectory>
+  <eplusLocation>Release</eplusLocation>
   <randomWindow>True</randomWindow>
   <randomShade>True</randomShade>
   <attachDayCtrl>True</attachDayCtrl>
